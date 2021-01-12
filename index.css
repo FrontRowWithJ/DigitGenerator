@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 40%;
+    height: 5vh;
+    padding: none;
+    border-radius: none;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 1.3rem;
+    margin-bottom: 5vh;
+}
+
+button:hover {
+
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead td {
+    font-weight: 600;
+}
+
+td {
+    border: 1px solid black;
+    margin: 0;
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+}
+
+.output {
+    margin-left: 1vw;
+    font-size: 1.2rem;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+}
