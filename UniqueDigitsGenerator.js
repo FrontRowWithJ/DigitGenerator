@@ -3,8 +3,8 @@ const getUnique = (value, index, arr = []) => {
 }
 
 const generateR = () => {
-    const number = document.getElementById("student-number").value;
-    const numSquared = +number * +number;
+    const number = BigInt(+(document.getElementById("student-number").value));
+    const numSquared = number * number;
     return ("" + numSquared).split("").map((e) => +e);
 }
 
