@@ -5,7 +5,7 @@ const getUnique = (value, index, arr = []) => {
 const generateR = () => {
     const number = document.getElementById("student-number").value;
     const numSquared = +number * +number;
-    return ("" + numSquared).split("").slice(0, 15).map((e) => +e);
+    return ("" + numSquared).split("").map((e) => +e);
 }
 
 const isDigitNotPresent = (value, array) => {
